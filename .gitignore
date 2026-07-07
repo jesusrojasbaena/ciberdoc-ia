@@ -1,0 +1,13 @@
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Tooling Node del pipeline (§5)
+node_modules/
+.env
+npm-debug.log*
+
+# Carpeta fuente del curso (nunca debe entrar en el repo, §4/§11)
+07_Entrega_Final/

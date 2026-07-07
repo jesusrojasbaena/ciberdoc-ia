@@ -1,0 +1,42 @@
+/* CiberDoc IA — hoja de estilos base
+   Paleta e tipografías según docs/especificacion-ciberdoc.md §6 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  /* Paleta */
+  --color-azul-noche: #0B1F3A;
+  --color-azul-electrico: #2563EB;
+  --color-cian-luminoso: #22D3EE;
+  --color-blanco-limpio: #F8FAFC;
+  --color-gris-pizarra: #334155;
+  --color-verde-exito: #10B981;
+
+  /* Tipografías */
+  --font-titulos: "Poppins", sans-serif;
+  --font-texto: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-blanco-limpio);
+  color: var(--color-gris-pizarra);
+  font-family: var(--font-texto);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-titulos);
+  color: var(--color-azul-noche);
+}
